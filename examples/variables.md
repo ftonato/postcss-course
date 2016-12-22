@@ -1,9 +1,30 @@
-﻿## Variáveis
+## Variáveis
 
 Variáveis servem para armazenar valores, que muitas vezes se repetem.  
 Com a utilização de variáveis, podemos reaproveitar o código e prover uma fácil manutenção.
 
-Você pode usar variáveis ​​dentro de valores, seletores e parâmetros da regra.
+Você pode usar variáveis dentro de valores, seletores e parâmetros da regra.
+
+#### Exemplos
+
+Declaração e utilização de uma variável
+```scss
+$colorRed = red;
+
+p {
+ color: $colorRed;
+}
+```
+
+Interpolação de Variáveis = Injeção de variáveis em strings
+```scss
+$side: top;
+$offset: 15px;
+
+.button {
+ padding-$(side): $offset; 
+}
+```
 
 Vejamos uma possível solução que faz a otimização do seguinte trecho de código, utilizando o conhecimento sobre variáveis.
 
@@ -48,3 +69,6 @@ nav {
  color: $colorBlue;
 }
 ```
+
+#### Plugins utilizados
+Para este conceito, fizemos a utilização de um plugin conhecido como [simple-vars](https://github.com/postcss/postcss-simple-vars).
