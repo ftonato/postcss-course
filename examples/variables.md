@@ -71,4 +71,9 @@ nav {
 ```
 
 #### Plugins utilizados
-Para este conceito, fizemos a utilização de um plugin conhecido como [simple-vars](https://github.com/postcss/postcss-simple-vars).
+Para este conceito, fizemos a utilização de um plugin conhecido como [postcss-import](https://github.com/postcss/postcss-import).
+
+
+#### Qual o próximo passo?
+
+Acessar o próximo artigo onde vamos entender como funcionam as [importações](imports.md) do PostCSS
