@@ -71,7 +71,7 @@ nav {
 ```
 
 #### Plugins utilizados
-Para este conceito, fizemos a utilização de um plugin conhecido como [postcss-import](https://github.com/postcss/postcss-import).
+Para este conceito, fizemos a utilização de um plugin conhecido como [simple-vars](https://github.com/postcss/postcss-simple-vars).
 
 
 #### Qual o próximo passo?
