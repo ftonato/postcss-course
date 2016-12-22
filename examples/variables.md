@@ -8,7 +8,7 @@ Você pode usar variáveis dentro de valores, seletores e parâmetros da regra.
 #### Exemplos
 
 Declaração e utilização de uma variável
-```scss
+```sass
 $colorRed = red;
 
 p {
@@ -17,7 +17,7 @@ p {
 ```
 
 Interpolação de Variáveis = Injeção de variáveis em strings
-```scss
+```sass
 $side: top;
 $offset: 15px;
 
@@ -29,7 +29,7 @@ $offset: 15px;
 Vejamos uma possível solução que faz a otimização do seguinte trecho de código, utilizando o conhecimento sobre variáveis.
 
 #### Ruim
-```scss
+```sass
 .nav {
   width: calc(6 * 120px); /* 6 é o número de nav-item na tela. 120px é a largura de cada item. */
   border-bottom: 1px solid #056ef0; 
@@ -49,7 +49,7 @@ Vejamos uma possível solução que faz a otimização do seguinte trecho de có
 
 #### Bom
 
-```scss
+```sass
 $navItem: 120px;
 $colorBlack: black;
 $colorBlue: #056ef0;
