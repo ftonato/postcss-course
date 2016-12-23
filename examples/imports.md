@@ -65,7 +65,6 @@ h1 {
 .button:hover {
   border: 2px solid $colorTertiary;
 }
-
 ```
 
 #### Bom
@@ -106,3 +105,7 @@ h1 {
 
 #### Plugins utilizados
 Para este conceito, fizemos a utilização de um plugin conhecido como [postcss-import](https://github.com/postcss/postcss-import).
+
+#### Qual o próximo passo?
+
+Acessar o próximo artigo onde vamos entender como funcionam os [seletores aninhados](nested-selectors.md) do PostCSS.

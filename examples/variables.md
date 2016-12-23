@@ -44,7 +44,6 @@ Vejamos uma possível solução que faz a otimização do seguinte trecho de có
 .nav-item:hover {
  color: #056ef0;
 }
-
 ```
 
 #### Bom
@@ -76,4 +75,4 @@ Para este conceito, fizemos a utilização de um plugin conhecido como [simple-v
 
 #### Qual o próximo passo?
 
-Acessar o próximo artigo onde vamos entender como funcionam as [importações](imports.md) do PostCSS
+Acessar o próximo artigo onde vamos entender como funcionam as [importações](imports.md) do PostCSS.
