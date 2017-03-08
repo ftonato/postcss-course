@@ -19,7 +19,7 @@ O PostCSS pode ser utilizado de diversas maneiras, como por exemplo:
 - Utilizando um Loader do [webpack](https://webpack.github.io/)
 - Através da linha de comando (CLI)
 
-Não será explicado como fazer a utilização através de cada uma das possíveis configurãções.  
+Não será explicado como fazer a utilização através de cada uma das possíveis configurações.  
 Caso seja necessário ou haja alguma dúvida, podemos consultar a [documentação de utilização](https://github.com/postcss/postcss#usage) no site do PostCSS.
 
 
