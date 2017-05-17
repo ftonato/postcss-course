@@ -30,7 +30,7 @@ Vamos conhecer alguns dos conceitos utilizados no PostCSS e como aplicá-los, pa
 ## Como ajudar?
 Você quer contribuir para melhorar esse material? Incrível! Há alguns passos que você pode seguir para contribuir, veja abaixo.
 
-* Abra uma [nova issue](https://github.com/ftonato/postcss-course/issues/new) para relatar quais possíveis erros ou propor novos recursos.
+* Abra uma [nova issue](https://github.com/ftonato/postcss-course/issues/new) para relatar quaisquer possíveis erros ou propor novos recursos.
 * Envie um pull request com sua sugestão/correção.
 
 ## Licença
